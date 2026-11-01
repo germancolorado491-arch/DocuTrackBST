@@ -22,5 +22,10 @@ Proyecto de consola en C# (.NET 8.0) implementado bajo el patrón Modelo-Vista-C
 1. Tener instalado el SDK de .NET 8.0 (o superior).
 2. Clonar el repositorio y abrir una terminal en la carpeta del proyecto:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/germancolorado491-arch/DocuTrackBST.git
    cd DocuTrackBST
+   ```
+3. Compilar y ejecutar la solución:
+   ```bash
+   dotnet run
+   ```

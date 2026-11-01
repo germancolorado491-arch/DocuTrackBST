@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\German A Colorado M\\Documents\\Ingenieria_de_Sistemas\\Programacion_III\\DocuTrackBST\\DocuTrackBST.csproj": {}
+    "/home/leimsoto/Programas/DocuTrackBST/DocuTrackBST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\German A Colorado M\\Documents\\Ingenieria_de_Sistemas\\Programacion_III\\DocuTrackBST\\DocuTrackBST.csproj": {
+    "/home/leimsoto/Programas/DocuTrackBST/DocuTrackBST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\German A Colorado M\\Documents\\Ingenieria_de_Sistemas\\Programacion_III\\DocuTrackBST\\DocuTrackBST.csproj",
+        "projectUniqueName": "/home/leimsoto/Programas/DocuTrackBST/DocuTrackBST.csproj",
         "projectName": "DocuTrackBST",
-        "projectPath": "C:\\Users\\German A Colorado M\\Documents\\Ingenieria_de_Sistemas\\Programacion_III\\DocuTrackBST\\DocuTrackBST.csproj",
-        "packagesPath": "C:\\Users\\German A Colorado M\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\German A Colorado M\\Documents\\Ingenieria_de_Sistemas\\Programacion_III\\DocuTrackBST\\obj\\",
+        "projectPath": "/home/leimsoto/Programas/DocuTrackBST/DocuTrackBST.csproj",
+        "packagesPath": "/home/leimsoto/.nuget/packages/",
+        "outputPath": "/home/leimsoto/Programas/DocuTrackBST/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\German A Colorado M\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/leimsoto/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.426/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/leimsoto/.dotnet/sdk/8.0.427/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

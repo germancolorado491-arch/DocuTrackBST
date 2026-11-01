@@ -115,6 +115,19 @@ namespace DocuTrackBST.Views
             Console.WriteLine("    " + string.Join(" -> ", elementos));
         }
 
+        public void MostrarMetricasFinales(int altura, int totalNodos, int totalHojas, int carpetas, int archivos)
+        {
+            Console.WriteLine("\n==========================================================================");
+            Console.WriteLine("                    MÉTRICAS Y ESTADÍSTICAS DEL ÁRBOL                     ");
+            Console.WriteLine("==========================================================================");
+            Console.WriteLine($"  * Altura del árbol:         {altura} niveles");
+            Console.WriteLine($"  * Total de nodos:           {totalNodos}");
+            Console.WriteLine($"  * Total de nodos hoja:      {totalHojas}");
+            Console.WriteLine($"  * Total de carpetas:        {carpetas}");
+            Console.WriteLine($"  * Total de archivos:        {archivos}");
+            Console.WriteLine("==========================================================================");
+        }
+
         public void MostrarAlturaFinal(int altura)
         {
             Console.WriteLine("\n==========================================================================");

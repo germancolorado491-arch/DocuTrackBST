@@ -333,5 +333,52 @@ namespace DocuTrackBST.Models
             int der = AlturaRecursiva(nodo.Derecho);
             return Math.Max(izq, der) + 1;
         }
+
+        public int ContarNodos()
+        {
+            return ContarNodosRecursivo(Raiz);
+        }
+
+        private int ContarNodosRecursivo(Nodo? nodo)
+        {
+            if (nodo == null) return 0;
+            return 1 + ContarNodosRecursivo(nodo.Izquierdo) + ContarNodosRecursivo(nodo.Derecho);
+        }
+
+        public int ContarHojas()
+        {
+            return ContarHojasRecursivo(Raiz);
+        }
+
+        private int ContarHojasRecursivo(Nodo? nodo)
+        {
+            if (nodo == null) return 0;
+            if (nodo.EsHoja()) return 1;
+            return ContarHojasRecursivo(nodo.Izquierdo) + ContarHojasRecursivo(nodo.Derecho);
+        }
+
+        public int ContarCarpetas()
+        {
+            return ContarCarpetasRecursivo(Raiz);
+        }
+
+        private int ContarCarpetasRecursivo(Nodo? nodo)
+        {
+            if (nodo == null) return 0;
+            int actual = nodo.EsCarpeta ? 1 : 0;
+            return actual + ContarCarpetasRecursivo(nodo.Izquierdo) + ContarCarpetasRecursivo(nodo.Derecho);
+        }
+
+        public int ContarArchivos()
+        {
+            return ContarArchivosRecursivo(Raiz);
+        }
+
+        private int ContarArchivosRecursivo(Nodo? nodo)
+        {
+            if (nodo == null) return 0;
+            int actual = !nodo.EsCarpeta ? 1 : 0;
+            return actual + ContarArchivosRecursivo(nodo.Izquierdo) + ContarArchivosRecursivo(nodo.Derecho);
+        }
     }
 }

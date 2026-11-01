@@ -132,7 +132,7 @@ namespace DocuTrackBST.Controllers
 
         private void MostrarRecorridosYAltura()
         {
-            vista.MostrarEncabezadoSeccion("5. RECORRIDOS DE VERIFICACIÓN Y ALTURA DEL ÁRBOL");
+            vista.MostrarEncabezadoSeccion("5. RECORRIDOS DE VERIFICACIÓN Y MÉTRICAS DEL ÁRBOL");
 
             vista.MostrarRecorrido("Preorden (Raíz - Izq - Der)", arbol.RecorridoPreorden());
             vista.MostrarRecorrido("Inorden (Izq - Raíz - Der)", arbol.RecorridoInorden());
@@ -140,7 +140,12 @@ namespace DocuTrackBST.Controllers
             vista.MostrarRecorrido("Por Niveles (Amplitud con Queue)", arbol.RecorridoPorNiveles());
 
             int altura = arbol.CalcularAltura();
-            vista.MostrarAlturaFinal(altura);
+            int totalNodos = arbol.ContarNodos();
+            int totalHojas = arbol.ContarHojas();
+            int carpetas = arbol.ContarCarpetas();
+            int archivos = arbol.ContarArchivos();
+
+            vista.MostrarMetricasFinales(altura, totalNodos, totalHojas, carpetas, archivos);
         }
     }
 }
