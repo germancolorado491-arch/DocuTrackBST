@@ -8,7 +8,7 @@ Proyecto de consola en C# (.NET 8.0) implementado bajo el patrón Modelo-Vista-C
 | Integrante | Responsabilidades |
 | :--- | :--- |
 | Germán Alberto Colorado Moscoso | Implementación de la capa Model (`Nodo.cs`, `ArbolBinario.cs`), métodos de inserción, búsqueda, eliminación (3 casos), actualización y recorridos. |
-| Leimar Soto Olaya | Implementación de la capa View (`ConsolaView.cs`), capa Controller (`ArbolController.cs`, `Program.cs`), impresión del árbol en ASCII y redacción del `README.md`. |
+| Leimar Yesid Soto Olaya | Implementación de la capa View (`ConsolaView.cs`), capa Controller (`ArbolController.cs`, `Program.cs`), impresión del árbol en ASCII y redacción del `README.md`. |
 
 ## Estructura del Proyecto
 
