@@ -1,0 +1,15 @@
+# Artefactos de compilación de .NET
+bin/
+obj/
+
+# Entornos de desarrollo / IDEs
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
